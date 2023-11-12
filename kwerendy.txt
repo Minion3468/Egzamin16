@@ -1,0 +1,4 @@
+1.SELECT id, nazwa, wystepowanie FROM `ryby` WHEE styl_zycia=1;
+2.SELECT Ryby_id, wymiar_ochronny FROM `okres_ochronny` WHERE wymiar_ochronny < 30; 
+3.SELECT Ryby.nazwa, Lowisko.akwen, Lowisko.wojewodztwo FROM Ryby, Lowisko WHERE ryby.id=lowisko.Ryby_id and lowisko.rodzaj = 3; 
+4.Alter TABLE ryby ADD dobowy_limit TINYINT UNSIGNED;
